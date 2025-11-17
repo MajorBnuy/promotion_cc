@@ -640,16 +640,16 @@ section span {
     width: 100%;
     height: 200px;
   }
-  .info{
+  .info {
     width: 100%;
     height: 100%;
   }
   .infowrapper {
-      display: grid;
-  padding: 0.5em;
-  gap: 0.5em;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr fr;
+    display: grid;
+    padding: 0.5em;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "header header"
       "ID pic1"
@@ -658,33 +658,31 @@ section span {
       "footer footer";
   }
   .grid-5 {
-  display: none;
-}
+    display: none;
+  }
   .grid-6 {
-  font-size: 0.6rem;
-}
-.grid-6 ul {
-  width: 100%;
-}
-.grid-6 ul li span::before {
-  content: "";
-}
+    font-size: 0.6rem;
+  }
+  .grid-6 ul {
+    width: 100%;
+  }
+  .grid-6 ul li span::before {
+    content: "";
+  }
 
-
-.grid-7 p {
-  font-size: 0.7rem;
-}
-.grid-7 .bes {
-  font-size: 0.7rem;
-}
-.grid-7 li {
-  font-size: 0.7rem;
-}
-.grid-7 h2 {
-  font-size: 1rem;
-}
-.grid-7 h1 {
-  font-size: 1.2rem;
-}
-
+  .grid-7 p {
+    font-size: 0.7rem;
+  }
+  .grid-7 .bes {
+    font-size: 0.7rem;
+  }
+  .grid-7 li {
+    font-size: 0.7rem;
+  }
+  .grid-7 h2 {
+    font-size: 1rem;
+  }
+  .grid-7 h1 {
+    font-size: 1.2rem;
+  }
 }
